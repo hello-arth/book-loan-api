@@ -105,7 +105,7 @@ A API estará disponível em `http://localhost:3000`.
   
 - **`ensureAuth`**: Middleware que exige que o usuário esteja autenticado. Se o token de autenticação não for válido ou não estiver presente, retorna um erro 401.
 
-- **`ensureAdmin`**: Middleware que exige que o usuário seja um administrador. Se o usuário não for um administrador, retorna um erro 401 com a mensagem "Permission denied".
+- **`ensureAdmin`**: Middleware que exige que o usuário seja um administrador. Se o usuário não for um administrador, retorna um erro 401.
 
 ## Licença
 Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
