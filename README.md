@@ -39,7 +39,7 @@ Crie um arquivo `.env` na raiz do projeto e siga a estrutura do arquivo `.env.ex
 
 5\. Inicie o servidor:
 ```bash
-npm start
+  npm start
 ```
 A API estará disponível em `http://localhost:3000`.
 
