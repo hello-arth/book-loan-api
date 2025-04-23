@@ -107,5 +107,5 @@ A API estará disponível em `http://localhost:3000`.
 
 - **`ensureAdmin`**: Middleware que exige que o usuário seja um administrador. Se o usuário não for um administrador, retorna um erro 401 com a mensagem "Permission denied".
 
-# Licença
-Este projeto está licenciado sob a MIT License - consulte o arquivo LICENSE para mais detalhes.
+## Licença
+Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
