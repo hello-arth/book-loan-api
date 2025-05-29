@@ -64,11 +64,11 @@ A API estará disponível em `http://localhost:3000`.
 ### Books Routes (`/api/books`)
 
 - **GET** `/api/books`  
-  **Autenticação Requerida**: Opcional
+  **Autenticação Requerida**: Opcional  
   **Descrição**: Retorna uma lista de todos os livros. Caso o usuário esteja autenticado, a mensagem de boas-vindas incluirá o nome do usuário.
 
 - **GET** `/api/books/:bookId`  
-  **Autenticação Requerida**: Opcional
+  **Autenticação Requerida**: Opcional  
   **Descrição**: Retorna detalhes de um livro específico, identificado pelo `bookId`.
 
 - **POST** `/api/books`  
@@ -86,7 +86,7 @@ A API estará disponível em `http://localhost:3000`.
   **Descrição**: Retorna uma lista de todos os empréstimos.
 
 - **GET** `/api/loans/:loanId`  
-  **Autenticação Requerida**: Sim
+  **Autenticação Requerida**: Sim  
   **Descrição**: Retorna detalhes de um empréstimo específico, identificado pelo `loanId`. Requer que o usuário esteja autenticado.
 
 - **POST** `/api/loans/:bookId`  
